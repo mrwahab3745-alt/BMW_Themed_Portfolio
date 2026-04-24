@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern BMW-inspired portfolio website with a premium dark UI, engineered for performance."
+    />
+    <title>BMW-Inspired Portfolio</title>
+
+    <!-- Modern typography (clean + technical) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">M<span class="accent">•</span>Performance</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="sr-only">Toggle menu</span>
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+      </div>
+
+
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="top" class="hero" aria-label="Hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-content" data-reveal>
+            <p class="kicker">Premium Portfolio</p>
+            <h1 class="title">
+              Wahab Ahmad
+              <span class="title-sub">Software Engineer</span>
+              <span>Front End Developer</span>
+            </h1>
+            <p class="tagline">Engineered for Performance</p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Garage</a>
+              <a class="btn ghost" href="#contact">Start Engine</a>
+            </div>
+
+            <div class="hero-metrics" aria-label="Highlights">
+              <div class="metric">
+                <span class="metric-value">3+</span>
+                <span class="metric-label">Projects</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">3+</span>
+                <span class="metric-label">Months</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Craft</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <span class="scroll-dot"></span>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <h2 class="section-title">Engineering DNA</h2>
+            <p class="section-subtitle">
+              I build clean, high-performance experiences—minimal on noise, maximal on precision.
+            </p>
+          </header>
+
+          <div class="about-grid">
+            <article class="panel" data-reveal>
+              <h3 class="panel-title">Philosophy</h3>
+              <p class="panel-text">
+                Like a well-tuned drivetrain, great software balances performance, reliability, and
+                elegance. I focus on thoughtful architecture, fast interfaces, and maintainable code.
+              </p>
+              <ul class="bullets">
+                <li>UX-first engineering</li>
+                <li>Clean systems and naming</li>
+                <li>Performance and accessibility</li>
+              </ul>
+            </article>
+
+            <aside class="panel panel-glow" data-reveal>
+              <h3 class="panel-title">Core Strengths</h3>
+              <div class="chips" aria-label="Highlights">
+                <span class="chip">Frontend Craft</span>
+                <span class="chip">UI Systems</span>
+                <span class="chip">Performance</span>
+                <span class="chip">Testing</span>
+              </div>
+              <p class="panel-note">
+                Available for freelance and full-time roles. Based in <strong>Lahore, Pakistan</strong>.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">
+              A snapshot of the tools and disciplines I use to ship fast, stable products.
+            </p>
+          </header>
+
+          <div class="skills-grid">
+            <article class="panel" data-reveal>
+              <h3 class="panel-title">Frontend</h3>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">HTML / Accessibility</span>
+                  <span class="spec-val">95</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="95"></span>
+                </div>
+              </div>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">CSS / UI Systems</span>
+                  <span class="spec-val">90</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="90"></span>
+                </div>
+              </div>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">JavaScript</span>
+                  <span class="spec-val">88</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="88"></span>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel" data-reveal>
+              <h3 class="panel-title">Backend / Systems</h3>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">Node / APIs</span>
+                  <span class="spec-val">82</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="82"></span>
+                </div>
+              </div>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">Databases</span>
+                  <span class="spec-val">78</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="78"></span>
+                </div>
+              </div>
+              <div class="spec">
+                <div class="spec-row">
+                  <span class="spec-name">Testing / Quality</span>
+                  <span class="spec-val">80</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="bar-fill" data-level="80"></span>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel panel-glow" data-reveal>
+              <h3 class="panel-title">Tooling</h3>
+              <p class="panel-text">
+                I value repeatable workflows: linting, formatting, and lightweight automation that keeps
+                builds predictable.
+              </p>
+              <ul class="bullets">
+                <li>Git workflows</li>
+                <li>Performance profiling</li>
+                <li>Design-to-code precision</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">
+              A few builds—clean lines, real results. Swap in your own projects anytime.
+            </p>
+          </header>
+
+          <div class="cards">
+            <article class="card" data-reveal>
+              <div class="card-top">
+                <span class="badge">Featured</span>
+                <span class="card-icon" aria-hidden="true">01</span>
+              </div>
+              <h3 class="card-title">Performance Dashboard</h3>
+              <p class="card-text">
+                A metrics-first UI with polished charts and fast filtering. Built for clarity under load.
+              </p>
+              <div class="card-tags" aria-label="Tech used">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <div class="card-actions">
+                <a class="link" href="#" aria-label="View live demo">Live</a>
+                <a class="link" href="#" aria-label="View source code">Code</a>
+              </div>
+            </article>
+
+            <article class="card" data-reveal>
+              <div class="card-top">
+                <span class="badge badge-muted">Build</span>
+                <span class="card-icon" aria-hidden="true">02</span>
+              </div>
+              <h3 class="card-title">Luxury Landing Page</h3>
+              <p class="card-text">
+                A minimalist product page with cinematic visuals, clean type, and fast interactions.
+              </p>
+              <div class="card-tags" aria-label="Tech used">
+                <span class="tag">Responsive</span>
+                <span class="tag">UI</span>
+                <span class="tag">A11y</span>
+              </div>
+              <div class="card-actions">
+                <a class="link" href="#" aria-label="View live demo">Live</a>
+                <a class="link" href="#" aria-label="View source code">Code</a>
+              </div>
+            </article>
+
+            <article class="card" data-reveal>
+              <div class="card-top">
+                <span class="badge badge-muted">Build</span>
+                <span class="card-icon" aria-hidden="true">03</span>
+              </div>
+              <h3 class="card-title">API Garage</h3>
+              <p class="card-text">
+                A small app showcasing API integration, error handling, and a tidy component structure.
+              </p>
+              <div class="card-tags" aria-label="Tech used">
+                <span class="tag">Fetch</span>
+                <span class="tag">APIs</span>
+                <span class="tag">UX</span>
+              </div>
+              <div class="card-actions">
+                <a class="link" href="#" aria-label="View live demo">Live</a>
+                <a class="link" href="#" aria-label="View source code">Code</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">
+              Have a role or project in mind? Send a message—let’s build something precise.
+            </p>
+          </header>
+
+          <div class="contact-grid">
+            <form class="panel contact-form" data-reveal>
+              <label class="field">
+                <span class="field-label">Name</span>
+                <input class="input" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+              </label>
+
+              <label class="field">
+                <span class="field-label">Email</span>
+                <input
+                  class="input"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+
+              <label class="field">
+                <span class="field-label">Message</span>
+                <textarea class="input textarea" name="message" rows="5" placeholder="Tell me what you’re building..." required></textarea>
+              </label>
+
+              <button class="btn primary" type="submit">Send Message</button>
+              <p class="form-note" role="status" aria-live="polite"></p>
+            </form>
+
+            <aside class="panel panel-glow" data-reveal>
+              <h3 class="panel-title">Contact</h3>
+              <p class="panel-text">
+                Prefer direct? Reach out anytime. I’ll respond with clear next steps and timelines.
+              </p>
+              <div class="contact-lines">
+                <a class="contact-line" href="mailto:you@example.com">
+                  <span class="contact-key">Email</span>
+                  <span class="contact-val">you@example.com</span>
+                </a>
+                <a class="contact-line" href="#" aria-label="Your LinkedIn profile">
+                  <span class="contact-key">LinkedIn</span>
+                  <span class="contact-val">/in/your-handle</span>
+                </a>
+                <a class="contact-line" href="https://github.com/mrwahab3745-alt" aria-label="Your GitHub profile">
+                  <span class="contact-key">GitHub</span>
+                  <span class="contact-val">My Github</span>
+                </a>
+              </div>
+
+              <div class="fineprint">
+                <span class="dot" aria-hidden="true"></span>
+                <span>Built with HTML, CSS, and JavaScript</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> MR WAHAB-Web Developer</span>
+        <a class="link" href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
